@@ -202,7 +202,6 @@ int main(int argc, char **argv) {
             pumps(socket, encoder.getEncodedData(), encoder.getEncodedSize());
             client.releaseFrame(&frame);
             std::cout << "send" << std::endl;
-            usleep(100000);
         }
     }
 
